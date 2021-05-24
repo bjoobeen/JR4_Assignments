@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <!-- Meta Data -->
+	</head>
+    <header>
+    <body>
+        <main>
+            <h1>Justice Reskill</h1>
+               <form>
+                    <label>Income Selection</label>
+                    <select name="Studends">
+                        <option>Student Info</option>
+                        <option>Student Application</option>
+                        <option>$100k+</option>
+                    </select>
+                    <a href= "http://thestoriesofjustice.com/"> "Stories of Justice Project"</a>
+            <hr>
+                    <br>
+                    <br>
+                    <label>Is this information accurate?</label>
+                    <input type="checkbox"/>
+                    <br>
+                    <br>
+                    <button type="button">Submit Form</button>
+                </form>  
+        </main>
+    </body>
+</html>
