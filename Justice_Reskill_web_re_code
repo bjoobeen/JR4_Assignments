@@ -8,14 +8,18 @@
         <main>
             <h1>Justice Reskill</h1>
                <form>
-                    <label>Income Selection</label>
-                    <select name="Studends">
+                    <label>Students</label>
+                    <select name="Students">
                         <option>Student Info</option>
                         <option>Student Application</option>
-                        <option>$100k+</option>
                     </select>
+                    <select name="Fair Chance Hiring"
+                    <option>Student Info</option>
+                        <option>Student Application</option>
                     <a href= "http://thestoriesofjustice.com/"> "Stories of Justice Project"</a>
             <hr>
+                    <button type="Careers">Submit Form</button>
+                    
                     <br>
                     <br>
                     <label>Is this information accurate?</label>
