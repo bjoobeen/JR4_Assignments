@@ -4,14 +4,16 @@
         <link rel="stylesheet" href="./index.css">
     <!-- Meta Data -->
 	</head>
+    <body>
     <header>
         <h1 class="my-website">My Website</h1>
     <br>
         <h3>A website created by me</h3>
     </header>
 
-    <body>
+    
         <main>
             <h1></h1>
         </main>
+    </body>
 </html>
