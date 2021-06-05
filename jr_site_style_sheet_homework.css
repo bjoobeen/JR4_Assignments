@@ -1,5 +1,39 @@
-
 .body {
- background-color: antiquewhite;   
-}
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+    }
 
+.logo {
+    flex-shrink: 40%;
+}   
+
+.topnav {
+    background-color: white;
+  }
+
+.logo {
+flex-shrink: 15%; -ms-flex-align: start;
+  }
+  
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10% auto ;
+  }
+  
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+.col {
+    height: 33%;
+  }
