@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-   <style>
-      
+    <style type="text/css">
+    .input-box {
+        display: block;
+    }
+    label {
+        font: size 11pt; ;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
     </style>
     </head>
     <body style="background-color: #a1dee0;">
@@ -10,6 +16,7 @@
             <h1 style="text-align: center;">Contact Form</h1>
             <br>   
                 <form>
+                    <div class="input-box"></div>
                     <label>First Name</label>
                     <input type="text" name="first name"/>
                     <br>                   
@@ -25,9 +32,12 @@
                     <label>Age</label>
                     <input type="number" name="age"/>
                     <br>
-                    <label>Secret Answer</label>
+                    <label >Secret Answer</label>
                     <input type="password" name="Secret Answer"/>
+                </div>
                     <hr>
+                </form>
+                <form>
                     <div style="flex: 0em;">
                     <label style= >User's Messages</label>
                     </div>
