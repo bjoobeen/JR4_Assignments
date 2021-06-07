@@ -1,8 +1,21 @@
+<<<<<<< Updated upstream
 body {
  background-color: antiquewhite;   
 }
 header {
     
+=======
+.body {
+ background-color: antiquewhite;   
+}
+
+.header{
+        background-color:aliceblue;
+        text-align: justify;  
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+>>>>>>> Stashed changes
 }
 
 ]
