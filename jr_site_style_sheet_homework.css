@@ -15,8 +15,8 @@
     margin-inline-start: 0mm;
 }
 .logo {
-    flex-direction: row;
-    flex-shrink: 90%;
+    height: 10px;
+    width: auto;
 }
 
 .nav {
