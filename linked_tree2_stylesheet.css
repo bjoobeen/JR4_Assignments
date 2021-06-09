@@ -2,5 +2,5 @@ body {
     background-color: rgb(223, 177, 117);
 }
 .resume {
-    align-self: center;
+    position: center;
 }
