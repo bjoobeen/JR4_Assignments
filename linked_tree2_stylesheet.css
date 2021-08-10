@@ -1,6 +1,27 @@
 body {
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgb(223, 177, 117);
 }
 .resume {
     position: center;
+}
+label {
+    font: size 11pt; ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+}
+.labels, .input-box {
+    width: 13rem;
+    height: 9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 38px;
+} 
+#user-info {
+    display: flex;
+}
+#message-contact {
+    display: flex; 
+    flex: 0em;
 }
