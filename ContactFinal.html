@@ -2,38 +2,13 @@
 <html>
 	<head>
         <link href="linked_tree2_stylesheet.css" rel="stylesheet">
-    
-    <style type="text/css">
 
-    body {
-        font-family: 'Times New Roman', Times, serif;
-    
-    }
-    label {
-        font: size 11pt; ;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        text-align: start;
-    }
-    .labels, .input-box {
-        width: 13rem;
-        height: 9em;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-bottom: 38px;
-    } 
-    #user-info {
-        display: flex;
-    }
-
-    </style>
     </head>
     <body style="background-color: #a1dee0;">
         <main>
             <h1 style="text-align: center;">Contact Form</h1>
             <br>   
-            <form id="user-info">
-                
+            <form id="user-info">                
                 <span class="labels" >
                     <div>First Name</div>
                     <div>Last Name</div>
@@ -50,10 +25,10 @@
                         <input type="number" name="age"/>
                         <input type="password" name="Secret Answer"/>
                 </span>
-                </form>
-                <form>
-                    <div style="flex: 0em;">
-                    <label style= >User's Messages</label>
+            </form>
+            <form>
+                <div id = "message_contact">
+                <label class = "user-messages" >User's Messages</label>
                     </div>
                     <textarea cols="40" rows="5" style="resize: none;"></textarea>
                     <br>
