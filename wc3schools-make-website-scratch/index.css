@@ -41,11 +41,11 @@ a:link {
     color:white;
 }
 .left-side-bar {
-    display: flex;
+    display: flex;  
     border: 2px color black;
     background-color: bisque;
 }
 .right-body {
-    display: flex;
+    display: flex;  
     border: 2px color black;
 }
